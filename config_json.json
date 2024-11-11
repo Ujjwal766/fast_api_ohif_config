@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "dicomWeb": [
+      {
+        "name": "DICOMWeb",
+        "wadoUriRoot": "https://datahubminidicomweb.azurewebsites.net/wado",
+        "qidoRoot": "https://datahubminidicomweb.azurewebsites.net/qido",
+        "wadoRoot": "https://datahubminidicomweb.azurewebsites.net/wado",
+        "qidoSupportsIncludeField": true,
+        "supportsReject": true,
+        "imageRendering": "wadors",
+        "thumbnailRendering": "wadors",
+        "enableStudyLazyLoad": true,
+        "supportsFuzzyMatching": true,
+        "supportsWildcard": true
+      }
+    ]
+  }
+}
